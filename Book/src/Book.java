@@ -11,11 +11,11 @@ public class Book {
         this.amount = 256;
         this.number = 9780345342966L;
     }
-    public String nameBook () {
-        return fahrenheit451;
+    public String getNameBook () {
+        return nameBook;
     }
-    public String getRayDouglasBradbury () {
-        return rayDouglasBradbury;
+    public String getAuthor () {
+        return author;
     }
     public int getAmount () {
         return amount;
