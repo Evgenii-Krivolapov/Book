@@ -1,17 +1,17 @@
 public class Book {
 
-    private final String fahrenheit451; //Название
-    private final String rayDouglasBradbury; //Автор
-    private final int amount; //Количество страниц
-    private final long number; //номер ISBN
+    private final String nameBook;
+    private final String author; 
+    private final int amount; 
+    private final long number; 
 
-    public Book (String fahrenheit451, String rayDouglasBradbury, int amount, int number) {
-        this.fahrenheit451 = fahrenheit451;
-        this.rayDouglasBradbury = rayDouglasBradbury;
+    public Book (String nameBook, String author, int amount, int number) {
+        this.nameBook = nameBook;
+        this.author = author;
         this.amount = 256;
         this.number = 9780345342966L;
     }
-    public String getFahrenheit451 () {
+    public String nameBook () {
         return fahrenheit451;
     }
     public String getRayDouglasBradbury () {
